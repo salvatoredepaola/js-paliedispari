@@ -62,4 +62,3 @@ console.log(verifica(a, b));
 
 
 
-
