@@ -43,16 +43,18 @@ for (let c = nome.length - 1; c >= 0; c--) {
     console.log(nome[c]) 
 }
 
+let nonPalindroma = "La parola non è palindroma"
+let palindroma = "La parola è palindroma"
 
 const verifica = function (a, b) {
 
     for (var i = 0; i < a.length; i++) {
         if (a[i] !== b[i]){
-            return false
+            return nonPalindroma
         };
     }
 
-    return true;
+    return palindroma;
 };
 
 console.log(verifica(a, b)); 
